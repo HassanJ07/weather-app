@@ -1,0 +1,133 @@
+
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #8B5CF6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    padding-bottom: 30px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #1F2937;
+    opacity: 85%;
+}
+h2{
+ display: flex;
+ justify-content: center;
+ padding: 30px;
+ font-weight: bolder;
+ font-size: 300%;
+ color: #1F2937;
+ 
+}
+input{
+    width: 17%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    background-color: beige;
+    font-size: larger;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+    
+    
+}
+.div-element{
+  
+    opacity: 80%;
+   
+  
+
+}
+.weather{
+    background: #363535c1;
+    color: white;
+    padding: 7em 1em 2em 0em;
+    border-radius: 30px;
+    width: 50%;
+   
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon{
+    width: 100px;
+}
+.card{
+display: flex;
+background-color: #000000c1;
+width: 50vw;
+justify-content: space-between;
+border-radius: 20px;
+
+}
+.temp{
+    color: rgb(252, 245, 245);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.days{
+    color: #EEE;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.desc{
+    color: yellowgreen;
+    font-style: italic;
+    font-weight: 900;
+}
+.humidity{
+    color: #8B5CF6;
+    font-weight: 700;
+}
+.wind{
+    color: #EC4899;
+    font-weight: 800;
+}
+
+.canvas{
+  text-emphasis: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+}
+#myChart{
+    height: 150px;
+    background-color: #0b2043;
+    border: 2px grey solid;
+    opacity: 90%;
+   
+
+}
